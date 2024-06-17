@@ -14,23 +14,23 @@ const NavBar = () => {
             <h1 className='w-full text-3xl font-bold text-[#00df9a]'>
                 DATALAND.
             </h1>
-            <ul className='hidden md:flex'> {/* mobile first, above medium nav appears */}
-                <li className='p-4'>Home</li>
-                <li className='p-4'>Company</li>
-                <li className='p-4'>Resources</li>
-                <li className='p-4'>About</li>
-                <li className='p-4'>Resources</li>
+            <ul className='hidden md:flex cursor-pointer'> {/* mobile first, above medium nav appears */}
+                <li className='p-4 hover:scale-105 duration-50 hover:text-[#00df9a]'>Home</li>
+                <li className='p-4 hover:scale-105 duration-50 hover:text-[#00df9a]'>Company</li>
+                <li className='p-4 hover:scale-105 duration-50 hover:text-[#00df9a]'>Resources</li>
+                <li className='p-4 hover:scale-105 duration-50 hover:text-[#00df9a]'>About</li>
+                <li className='p-4 hover:scale-105 duration-50 hover:text-[#00df9a]'>Resources</li>
             </ul>
 
             {/* MENU BUTTON */}
-            <div onClick={handleNav} className='block md:hidden'>
-                {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+            <div onClick={handleNav} className='block md:hidden '>
+                {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
 
             </div>
 
             {/* HAMBURGER MENU */}
-            <div className={!nav ? `fixed left-0 top-0 w-[60%] h-full border-r 
-                 border-r-gray-900 bg-[#000300] ease-in-out duration-500 md:hidden`
+            <div className={nav ? `fixed left-0 top-0 w-[60%] h-full border-r 
+                 border-r-gray-900 bg-[#000300] ease-in-out duration-500 `
                 : `fixed left-[-100%]`}
             >
                 <h1 className='w-full text-3xl font-bold m-4 pt-5 text-[#00df9a]'>
