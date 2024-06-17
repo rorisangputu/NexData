@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Green #00df9a */
+
 body {
+
     background-color: #000300;
 }
