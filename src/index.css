@@ -4,7 +4,11 @@
 
 /* Green #00df9a */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
-    background-color: #000300;
+    background-color: white;
 }

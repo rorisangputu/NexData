@@ -8,6 +8,10 @@ import Button from './Button';
 const Cards = () => {
     return (
         <div className='w-full py-[5rem] px-4 bg-white'>
+            <div className='max-w-[1240px flex flex-col justify-center mb-5'>
+                <h2 className='md:text-7xl sm:text-6xl text-5xl font-bold mx-auto font-sans md:py-4'>Our Plans</h2>
+                <p className='text-[#00df9a] text-md font-semibold md:text-xl md:font-semibold mx-auto'>Packages that will <span className='text-black italic'> suit your </span> organisational <span className='text-black italic'>needs.</span></p>
+            </div>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
                 <div className='w-full shadow-xl border 
                     border-gray-50 flex flex-col p-4 my-4 rounded-lg
@@ -79,7 +83,7 @@ const Cards = () => {
                     />
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
