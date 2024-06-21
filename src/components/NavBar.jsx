@@ -23,7 +23,7 @@ const NavBar = () => {
             </ul>
 
             {/* MENU BUTTON */}
-            <div onClick={handleNav} className='block md:hidden '>
+            <div onClick={handleNav} className='block md:hidden mr-5'>
                 {nav ? <AiOutlineClose className='text-black' size={20} /> : <AiOutlineMenu className='text-black' size={20} />}
 
             </div>

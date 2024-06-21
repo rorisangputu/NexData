@@ -5,7 +5,7 @@ import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-import WhyUs from "./components/WhyUs";
+
 
 
 
@@ -16,15 +16,12 @@ function App() {
     <div>
       <NavBar />
       <Hero />
-      <div id="Analytics">
+      <div className="-mt-10" id="Analytics">
         <Analytics />
       </div>
       <Newsletter />
       <div id="Sub">
         <Cards />
-      </div>
-      <div id="WhyUs">
-        <WhyUs />
       </div>
       <Footer />
     </div>

@@ -7,9 +7,14 @@ import Button from './Button'
 
 const Analytics = () => {
     return (
-        <div className='w-full grid grid-rows-2 bg-white h-screen py-9  sm:my-9 px-5 '>
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-                <img src={laptop} alt="laptop" className='w-[20vh]  sm:w-[25vh] md:w-[50vh] mx-auto my-4' />
+        <div className='w-full grid grid-rows-2 bg-white 
+            h-screen  sm:my-9 px-5  '>
+            <div className='max-w-[1240px]mx-auto grid md:grid-cols-2'>
+                <img
+                    src={laptop}
+                    alt="laptop"
+                    className='w-[20vh] sm:w-[25vh] md:w-[50vh] mx-auto my-4'
+                />
                 <div className='flex flex-col justify-center  '>
                     <p className='uppercase text-[#00df9a] font-bold'>Data Analytics Dashboard</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Manage Data Analytics Centrally</h1>
@@ -21,7 +26,8 @@ const Analytics = () => {
                     </p>
                 </div>
             </div>
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+            <div className='max-w-[1240px]  mx-auto grid md:grid-cols-2'>
+
                 <div className=' order-2 md:order-none flex flex-col justify-center px-2 '>
                     <p className='uppercase text-[#00df9a] font-bold'>In depth reporting</p>
                     <h1 className='md:text-4xl sm:text-3xl lg:w-[540px] text-2xl font-bold py-2'>Formulate In Depth Information Analysis</h1>
@@ -31,9 +37,15 @@ const Analytics = () => {
                         with other tools to optimize your data management processes.
                     </p>
                 </div>
-                <img src={chart} alt="laptop" className='w-[20vh] sm:w-[25vh] md:w-[50vh] mx-auto my-4' />
+
+                <img
+                    src={chart}
+                    alt="laptop"
+                    className='w-[20vh] 
+                    sm:w-[25vh] md:w-[50vh] mx-auto my-4'
+                />
             </div>
-            <div className='h-15 mt-5 lg:mt-0 mx-auto justify-center items-center flex'>
+            <div className='h-15 mt-6 lg:mt-0 mx-auto justify-center items-center flex'>
                 <Button title="Subscribe" styles="bg-black text-[#00df9a] w-[120px] rounded-md font-semibold 
                      mx-auto py-2" />
             </div>
