@@ -8,7 +8,7 @@ import board from '../assets/board.jpg'
 const Hero = () => {
     return (
         <div className='text-black w-full flex justify-center h-[85vh]'>
-            <div className='container text-center md:mt-[20rem] xl:mt-0
+            <div className='container text-center md:my-[20rem] xl:my-0
                flex flex-col items-center mx-auto justify-center xl:flex-row'
             >
                 <div className='md:text-start mx-auto flex flex-col'>
@@ -42,7 +42,7 @@ const Hero = () => {
                     />
                 </div>
                 <div>
-                    <img className='w-[300px]  md:w-[400px] lg:w-[450px] mx-auto mt-5 lg:mt-3' src={board} alt="" />
+                    <img className='w-[300px]  md:w-[300px] lg:w-[450px] mx-auto sm:-mt-20 sm:ml-40 lg:-mt-10 lg:-mr-52 xl:mt-0 xl:ml-0 xl:mr-0' src={board} alt="" />
                 </div>
             </div>
         </div>
