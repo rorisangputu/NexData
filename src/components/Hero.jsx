@@ -7,12 +7,11 @@ import board from '../assets/board.jpg'
 
 const Hero = () => {
     return (
-        <div className='text-black '>
-            <img className='w-[300px] -mr-[25px] md:mr-[-10px] lg:mr-[10px] xl:mr-[100px] md:w-[400px] lg:w-[450px] mx-auto mt-5 lg:mt-3' src={board} alt="" />
-            <div className=' max-w-[1240px] w-full px-4 mx-auto mt-[-100px] md:mt-[-250px] lg:mt-[-320px] md:items-start md:m-2 h-[80vh] md:h-[90vh] text-center
-               flex flex-col justify-center'
+        <div className='text-black w-full flex justify-center h-[85vh]'>
+            <div className='container text-center md:mt-[20rem] xl:mt-0
+               flex flex-col items-center mx-auto justify-center xl:flex-row'
             >
-                <div className='md:text-start mx-auto flex flex-col md:items-start'>
+                <div className='md:text-start mx-auto flex flex-col'>
                     <p className='md:w-[200px] capitalize text-3xl md:text-7xl font-bold'>
                         Data Analytics.
                     </p>
@@ -41,6 +40,9 @@ const Hero = () => {
                         styles="bg-[#00df9a] text-black w-[120px] rounded-md font-medium my-6
                         mx-auto md:mx-0 py-2"
                     />
+                </div>
+                <div>
+                    <img className='w-[300px]  md:w-[400px] lg:w-[450px] mx-auto mt-5 lg:mt-3' src={board} alt="" />
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ import Button from './Button'
 const Analytics = () => {
     return (
         <div className='w-full grid grid-rows-2 bg-white 
-            h-screen  sm:my-9 px-5  '>
+             sm:my-9 px-5  '>
             <div className='max-w-[1240px]mx-auto grid md:grid-cols-2'>
                 <img
                     src={laptop}

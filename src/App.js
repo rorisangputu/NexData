@@ -16,7 +16,7 @@ function App() {
     <div>
       <NavBar />
       <Hero />
-      <div className="-mt-10" id="Analytics">
+      <div className="mt-10" id="Analytics">
         <Analytics />
       </div>
       <Newsletter />
